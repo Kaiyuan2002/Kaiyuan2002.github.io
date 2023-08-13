@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Kaiyuan2002.github.io</id>
+    <title>Kaiyuan Zhang</title>
+    <updated>2023-08-13T00:21:46.964Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Kaiyuan2002.github.io"/>
+    <link rel="self" href="https://Kaiyuan2002.github.io/atom.xml"/>
+    <subtitle>Stay Hungry, Stay Foolish</subtitle>
+    <logo>https://Kaiyuan2002.github.io/images/avatar.png</logo>
+    <icon>https://Kaiyuan2002.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, Kaiyuan Zhang</rights>
+    <entry>
+        <title type="html"><![CDATA[Close-loop R410A Flash Evaporation Spray Cooling System]]></title>
+        <id>https://Kaiyuan2002.github.io/post/close-loop-r410a-flash-evaporation-spray-cooling-system/</id>
+        <link href="https://Kaiyuan2002.github.io/post/close-loop-r410a-flash-evaporation-spray-cooling-system/">
+        </link>
+        <updated>2023-08-07T16:47:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>本研究针对大功率激光装置的散热问题，将R410A为制冷剂工质，构建了一整套具有快速响应特性的闭式循环闪蒸喷雾冷却实验系统；在LabVIEW平台上编写数据测量系统集成模块，可以实现在较大范围内调控并测量喷雾腔内压力、制冷剂流量、喷雾距离和入口制冷剂过冷度等重要参数。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本研究针对大功率激光装置的散热问题，将R410A为制冷剂工质，构建了一整套具有快速响应特性的闭式循环闪蒸喷雾冷却实验系统；在LabVIEW平台上编写数据测量系统集成模块，可以实现在较大范围内调控并测量喷雾腔内压力、制冷剂流量、喷雾距离和入口制冷剂过冷度等重要参数。</p>
+<!-- more -->
+<h1 id="background">Background</h1>
+<h1 id="operating-principle">Operating principle</h1>
+<p>R410A闭式循环闪蒸喷雾冷却实验系统主要包含四个部分：制冷剂循环系统、闪蒸喷雾可视化系统、模拟芯片加热系统、数据采集和处理系统。</p>
+<h2 id="制冷剂循环系统">制冷剂循环系统</h2>
+<p>主要包括压缩机、冷凝器、喷嘴和换热表面等，循环的管路上安装的热交换器、气液分离器、水浴箱、恒温槽、阀门等其他部件也有各自的功能。<br>
+制冷循环系统图如图2-1所示，<br>
+<img src="https://Kaiyuan2002.github.io/post-images/1691863655488.png" alt="" loading="lazy"><br>
+压缩机将 R410A 压缩成高温高压的过热蒸汽，随后制冷剂蒸汽流入冷凝器进行散热，这一过程制冷剂先定压散热至饱和蒸汽状态，随后成为气液两相流继续定压放热，维持温度为对应压力下的饱和温度，经过回热器，与喷雾腔体中流出的低温制冷剂交换热量，进一步过冷以提高制冷效率。(需h-s图)<br>
+随后制冷剂液体流入喷嘴，喷嘴位于喷雾腔内部，处于密闭的低压环境中，液态制冷剂经过喷嘴瞬间降压，在压差的作用下发生闪蒸，一部分制冷剂会直接气化，另一部分可以破碎雾化成无数细小的液滴，液滴向下撞击到位于底部的实验表面进行换热，吸收完热量的制冷剂通过腔体底部管路流出，经过回热器，利用剩余冷却能力对从冷凝器内流出的制冷剂进行过冷，同时加热自身后再进入压缩机，也有利于避免压缩机发生液击，至此，完成整个制冷剂循环,系统实体如下图所示。<br>
+<img src="https://Kaiyuan2002.github.io/post-images/1691859029686.jpg" alt="" loading="lazy"></p>
+<h2 id="喷雾腔">喷雾腔</h2>
+<p><img src="https://Kaiyuan2002.github.io/post-images/1691864511382.jpg" alt="" loading="lazy"><br>
+喷雾腔体是闪蒸喷雾冷却系统的核心部件之一，如下图2-3所示。使用丁腈密封圈和卡套保证密封，配有对视的可视窗，出口截面3*Φ8mm。使用铜作为模拟热源，换热面Φ15mm，如图2-4所示。底面通过导热硅脂与铁素体不锈钢加热片连接，高频感应加热线圈的磁场透过玻璃纤维保温棉加热不锈钢加热片。加热体四周配有PEEK保温层，保证热量一维向上传导，通过傅里叶一维导热定律确定换热面热流密度。喷雾液滴撞击顶部换热面形成液膜换热，换热面附有新型指数型肋片。<br>
+<img src="https://Kaiyuan2002.github.io/post-images/1691863978885.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>
